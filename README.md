@@ -14,5 +14,5 @@ identifying batch and bottle.
 
 Any smartphone with a camera, QR reader application, and web browser 
 with connectivity to the coded URLs can be used to identify any bottle 
-of wine by scanning the QR tag without phyically handling bottles 
+of wine by scanning the QR tag without physically handling bottles 
 to expose the generic and uninformative kit-vintage artwork.  
