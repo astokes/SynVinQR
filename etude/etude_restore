@@ -1,0 +1,4 @@
+#!/bin/sh 
+echo "Restoring Mongo database 'etude' from 'dump' directory"
+mongorestore --db etude 
+

@@ -1,0 +1,4 @@
+#!/bin/sh 
+echo "Dumping Mongo database 'etude' into 'dump' directory"
+mongodump --db etude 
+
