@@ -1,0 +1,16 @@
+#!/bin/sh 
+command -v svn >/dev/null 2>&1 
+if [ $? -ne 0 ]; then
+    echo "svn program not found; you need to install Subversion"
+    exit 1
+fi 
+qrcode=pyqrcode-read-only
+if [ ! -d "$qrcode" ]; then  
+    svn checkout http://pyqrcode.googlecode.com/svn/trunk/ $qrcode 
+else 
+    echo "Directory $qrcode already exists"
+fi
+echo "NOTE:"
+echo "Directory pyqrcode-read-only is filtered in .gitignore" 
+echo "So don't put any project work in there"
+
