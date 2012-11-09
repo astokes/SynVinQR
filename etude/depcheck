@@ -14,4 +14,5 @@ mongo --version
 
 # python -m pymongo 
 python -m bottle --version
+python check/PIL_version.py 
 
