@@ -1,0 +1,17 @@
+#!/bin/sh
+
+command -v lsb_release >/dev/null 2>&1 
+if [ $? -eq 0 ]; then
+    echo -n "Linux OS detected: "
+    lsb_release -ds
+fi
+
+python --version
+python check/sysinfo.py
+python check/pymongo_version.py  # needed to perform other checks 
+python check/mongod_version.py
+mongo --version
+
+# python -m pymongo 
+python -m bottle --version
+

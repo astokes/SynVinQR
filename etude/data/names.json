@@ -1,0 +1,5 @@
+{ "_id" : { "$oid" : "509c8cb403077db6f9c18cfd" }, "name" : "James", "born" : 1920 }
+{ "_id" : { "$oid" : "509c8cd403077db6f9c18cfe" }, "name" : "William", "born" : 1931 }
+{ "_id" : { "$oid" : "509c8d1003077db6f9c18cff" }, "name" : "Nichelle", "born" : 1932 }
+{ "_id" : { "$oid" : "509c8d3103077db6f9c18d00" }, "name" : "George", "born" : 1937 }
+{ "_id" : { "$oid" : "509c8d9a03077db6f9c18d01" }, "name" : "Walter", "born" : 1936 }

@@ -1,0 +1,5 @@
+#!/bin/sh 
+echo "Importing Mongo database 'etude' from 'data' directory"
+mongoimport --db etude --collection names --file data/names.json
+
+

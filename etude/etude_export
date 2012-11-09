@@ -1,0 +1,5 @@
+#!/bin/sh 
+echo "Exporting Mongo database 'etude' into 'dump' directory"
+mongoexport --db etude --collection names --out data/names.json
+ 
+

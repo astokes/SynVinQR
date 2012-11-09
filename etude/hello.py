@@ -1,6 +1,8 @@
 # WEEK 2
-# simple pymongo web server responding to the root URL with a value from a MongoDB database 
-# and responding to the /hello URL by populating a template with values from a literal list 
+# simple pymongo web server responding to the root URL 
+# with a value from a MongoDB database 
+# and responding to the /hello URL by populating a template 
+# with values from a literal list 
 
 import bottle
 import pymongo
