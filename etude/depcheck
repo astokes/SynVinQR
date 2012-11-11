@@ -11,8 +11,6 @@ python check/sysinfo.py
 python check/pymongo_version.py  # needed to perform other checks 
 python check/mongod_version.py
 mongo --version
-
-# python -m pymongo 
 python -m bottle --version
 python check/PIL_version.py 
 

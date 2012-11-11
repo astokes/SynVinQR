@@ -28,6 +28,12 @@ def index(path):
 
     URL = bottle.request.url 
 
+# NOGO need to strip the parameters off the passed URL 
+
+    print bottle.request.query.setdefault ('key', '')
+
+# urllib.quote('/test', '')
+
     from pymongo import Connection
     connection = Connection('localhost', 27017)
     # pyqrcode bails out if URL string is shorter than http:/
